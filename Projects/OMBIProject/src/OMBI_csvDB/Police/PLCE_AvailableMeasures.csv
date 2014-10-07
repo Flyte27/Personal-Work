@@ -1,0 +1,43 @@
+MeasureID,Title,Type,Priority
+PLCE001,"Population",int,N
+PLCE008,"Population Density (for information only)",real,N
+PLCE105,"Reported Number of Violent-Criminal Code Incidents per 100,000 Population",real,N
+PLCE110,"Reported Number of Crimes Against Property-Criminal Code Incidents per 100,000 Population",real,N
+PLCE115,"Reported Number of Other Criminal (Non-Traffic) Code Violation Incidents per 100,000 Population",real,N
+PLCE120,"Reported Number of Total (Non-Traffic) Criminal Code Incidents per 100,000 Population",real,Y
+PLCE130,"Number of Youths 'Cleared by Charge' and 'Cleared Otherwise' per 100,000 Youth Population",real,N
+PLCE135,"Annual Percent Change in Rate of Violent Crime",percent change,N
+PLCE136,"Average Annual (5 year) Change in Rate of Violent Crime",percent change,N
+PLCE140,"Annual Percent Change in Rate of Crime Against Property",percent change,N
+PLCE141,"Average Annual (5 year)  Change in Rate of  Property Crime",percent change,N
+PLCE145,"Annual Percent of Change in Rate of Other (Non-Traffic) Criminal Code Violation Incidents",percent change,N
+PLCE146,"Average Annual (5 year)  Change in Rate of  Other (Non-Traffic) Criminal Code Incidents",percent change,N
+PLCE150,"Annual Percent Change in Rate of Total (Non-Traffic) Criminal Code Incidents",percent change,N
+PLCE151,"Average Annual (5 year)  Change in Rate of Total (Non-Traffic) Criminal Code Incidents",percent change,N
+PLCE160,"Annual Percent Change in Rate of Youths 'Cleared by Charge' and 'Cleared Otherwise' per 100,000 Youth Population",percent change,N
+PLCE161,"Average Annual (5 year) Percent Change in Rate of Youths 'Cleared by Charge' and 'Cleared Otherwise'",percent change,N
+PLCE170,"Violent Crime Severity Index",real,N
+PLCE171,"Annual Percent Change in Violent Crime Severity Index",percent change,N
+PLCE175,"Non-Violent Crime Severity Index",real,N
+PLCE176,"Annual Percent Change in Non-Violent Crime Severity Index",percent change,N
+PLCE180,"Total Crime Severity Index",real,N
+PLCE181,"Annual Percent Change in Total Crime Severity Index",percent change,N
+PLCE205,"Number of Police Officers per 100,000 Population",real,N
+PLCE210,"Number of Civilian and Other Staff per 100,000 Population",real,N
+PLCE215,"Number of Total Police Staff (Officers and Civilians) per 100,000 Population",real,Y
+PLCE220,"Number of Police Officers (excluding external contracts) per 100,000 Population",real,N
+PLCE227M,"Operating Cost for Police Services per Capita",dollar,N
+PLCE227T,"OMBI Total Operating Cost for Police Services per Capita (including amortization)",dollar,N
+PLCE235,"Policing Net Operating Cost per Capita",dollar,N
+PLCE305,"Number of Criminal Code Incidents (Non-Traffic) per Police Officer",real,N
+PLCE320,"Police Service Operating Cost (all costs excluding amortization) per Police Staff Member (Officers and Cilvilians)",dollar,Y
+PLCE320T,"OMBI Total Police Service Operating Costs (all costs, including amortization) per Police Staff Member",dollar,Y
+PLCE405,"Clearance Rate-Violent Crime",percent,N
+PLCE410,"Clearance Rate_Crimes against Property",percent,N
+PLCE415,"Clearance Rate - Other (Non-Traffic) Criminal Code Violations Incidents",percent,N
+PLCE420,"Clearance Rate-Total (Non-Traffic) Criminal Code Incidents",percent,Y
+PLCE425,"Weighted Total Clearance Rate",percent,N
+PLCE430,"Weighted Violent Clearance Rate",percent,N
+PLCE435,"Weighted Non-Violent  Clearance Rate",percent,N
+PLCE910M,"Operating Cost for Police Services per Capita (excludes court security and prisoner transport)",dollar,N
+PLCE911M,"Total Cost for Police Services per Capita (excludes court security and prisoner transport)",dollar,N

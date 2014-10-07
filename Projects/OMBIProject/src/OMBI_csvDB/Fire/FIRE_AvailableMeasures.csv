@@ -1,0 +1,52 @@
+MeasureID,Title,Type,Priority
+FIRE001,"Population",int,N
+FIRE003,"Households",int,N
+FIRE008,"Population Density",real,N
+FIRE105,"Residential Fire Related Injuries per 100,000 Population (Entire Municipality)",real,N
+FIRE106,"Residential Fire Related Injuries per 100,000 Population (Urban Area)",real,N
+FIRE107,"Residential Fire Related Injuries per 100,000 Population (Rural Area)",real,N
+FIRE108,"Percent of All Residential Fire Related Injuries in Dwellings with Working Smoke Alarms (Entire Municipality)",percent,N
+FIRE109,"Rate of Fire Fighter Injuries at Emergency Scene (Entire Municipality)",percent,N
+FIRE109A,"Rate of all Fire Service Injuries (Entire Municipality)",percent,N
+FIRE110,"Residential Fire Related Fatalities per 100,000 Population (Entire Municipality)",real,N
+FIRE111,"Residential Fire Related Fatalities per 100,000 Population (Urban Area)",real,N
+FIRE112,"Residential Fire Related Fatalities per 100,000 Population (Rural Area)",real,N
+FIRE113,"Percent of All Residential Fire Related Fatalities in Dwellings with Working Smoke Alarms (Entire Municipality)",percent,N
+FIRE115,"Rate of Residential Structural Fires with Losses per 1,000 Households (Entire Municipality)",real,N
+FIRE116,"Rate of Residential Structural Fires with Losses per 1,000 Households (Urban Area)",real,Y
+FIRE117,"Rate of Residential Structural Fires with Losses per 1,000 Households (Rural Area)",real,Y
+FIRE120,"Rate of Commercial and Industrial (C&I) Structural Fires with Losses per 1,000 C&I Properties (Entire Municipality)",real,N
+FIRE121,"Rate of Commercial and Industrial (C&I) Structural Fires with Losses per 1,000 C&I Properties (Urban Area)",real,N
+FIRE122,"Rate of Commercial and Industrial (C&I) Structural Fires with Losses per 1,000 C&I Properties (Rural Area)",real,N
+FIRE212,"Fire Suppression Staff per 1,000 Population (Urban Area)",real,N
+FIRE213,"Fire Prevention Staff per 1,000 Population (Urban Area)",real,N
+FIRE214,"Fire Education Staff  per 1,000 Population (Urban Area)",real,N
+FIRE216,"Fire Training Staff per 1,000 Population (Urban Area)",real,N
+FIRE220,"Fire Staffing Costs per Capita (Urban Operations)",dollar,N
+FIRE225,"Fire Staffing Costs per Capita (Rural Operations)",dollar,N
+FIRE230,"Number of Staffed Fire In-Service Vehicle Hours per Capita (Urban Area)",real,Y
+FIRE232,"Number of Fire In-Service Vehicle Hours per Capita (Rural Area)",real,Y
+FIRE240,"Number of Unique Incidents Responded to by Fire Services per 1,000 Population (Urban Area)",real,N
+FIRE242,"Number of Property Fires, Explosions and Alarms per 1,000 Population (Urban Area)",real,N
+FIRE243,"Number of Rescues per 1,000 Population (Urban Area)",real,N
+FIRE244,"Number of Medical Calls per 1,000 Population (Urban Area)",real,N
+FIRE245,"Number of Public Hazards and Other Incidents per 1,000 Population (Urban Area)",real,N
+FIRE260,"Salary and Benefit Costs of Inspection and Enforcement per Capita",dollar,N
+FIRE265,"Salary and Benefit Costs of Public Education per Capita",dollar,N
+FIRE304,"Fire Operating Cost per Staffed In-Service Vehicle Hour (Rural Area)",real,Y
+FIRE304T,"OMBI Total Fire Operating Costs per In-Service Vehicle Hour (Rural Area) (includes amortization)",dollar,Y
+FIRE305,"Fire Operating Cost per Staffed In-Service Vehicle Hour (Urban Area)",dollar,Y
+FIRE305T,"OMBI Total Fire Operating Costs per Staffed In-Service Vehicle Hour (Urban Area) (includes amortization)",dollar,Y
+FIRE310,"Fire Operating Cost per Incident (Urban Area)",dollar,N
+FIRE310T,"OMBI Total Fire Operating Cost per Incident (Urban Area) (includes amortization)",dollar,N
+FIRE311,"Fire Operating Cost per Incident (Rural Area)",dollar,N
+FIRE311T,"OMBI Total Fire Operating Cost per Incident (Rural Area) (includes amortization)",dollar,N
+FIRE315,"Fire Operating Cost per Vehicle Run (Urban Area)",dollar,N
+FIRE315T,"OMBI Total Fire Operating Cost per Vehicle Run (Urban Area) (includes amortization)",dollar,N
+FIRE316,"Fire Operating Cost per Vehicle Run (Rural Area)",dollar,N
+FIRE316T,"OMBI Total Fire Operating Cost per Vehicle Run (Rural Area)",dollar,N
+FIRE849,"Specialty Vehicles",int,N
+FIRE901M,"Operating Costs for Fire Services per 1,000 Assessment",dollar,N
+FIRE912M,"Total MPMP Operating Costs for Fire Services per 1,000 Assessment (includes amortization and interest on long term debt)",dollar,N
+FIRE930M,"Number of Residential Fire Related Injuries Averaged Over 5 Years per 1,000 Persons",real,N
+FIRE935M,"Number of Residential Fire Related Fatalities Averaged Over 5 Years per 1,000 Persons",real,N

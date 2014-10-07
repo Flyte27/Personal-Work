@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>ombi-logo.png</file>
+        <file>icons/fire.png</file>
+        <file>icons/library.png</file>
+        <file>icons/parks.png</file>
+        <file>icons/police.png</file>
+        <file>icons/waste.png</file>
+        <file>icons/water.png</file>
+    </qresource>
+    <qresource prefix="/animations">
+        <file>muni-slideshow.gif</file>
+    </qresource>
+</RCC>

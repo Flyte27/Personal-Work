@@ -1,0 +1,35 @@
+MeasureID,Title,Type,Priority
+SWST003,"Households",int,N
+SWST105M,"Percent of Residential Solid Waste Diverted for Recycling - All Streams - Single Family and Multi-Res",percent,Y
+SWST110,"Percent of Residential Solid Waste Diverted for Recycling - All Streams - Single Family - Curbside",percent,N
+SWST115,"Percent of Residential Solid Waste Diverted for Recycling - All Streams - Multi-Res - Curbside",percent,N
+SWST205,"Tonnes of all Material Collected per Household - Residential",real,Y
+SWST220,"Tonnes of Solid Waste Disposed per Household - Residential",real,Y
+SWST235,"Tonnes of Solid Waste Diverted per Household - Residential",real,Y
+SWST311A,"Amortization based on Operating Cost for Garbage Collection ",dollar,N
+SWST311I,"Interest on Long Term Debt based Operating Cost for Garbage Collection _ All Property Classes - Curbside",dollar,N
+SWST311M,"Operating Cost for Garbage Collection per Tonne - All Property Classes - Curbside",dollar,Y
+SWST311T,"OMBI Total Cost for Garbage Collection per Tonne - All Property Classes (includes amortization)",dollar,Y
+SWST325A,"Amortization based on Operating Cost for Solid Waste Disposal",dollar,N
+SWST325I,"Interest on Long Term Debt based on Operating Cost for Solid Waste Disposal",dollar,N
+SWST325M,"Operating Costs for Solid Waste Disposal per Tonne - All Property Classes",dollar,Y
+SWST325T,"OMBI Total Cost for Solid Waste Disposal per Tonne - All Property Classes (including amortization)",dollar,Y
+SWST330M,"Operating Cost for Solid Waste Diversion per Tonne - All Property Classes",dollar,Y
+SWST330T,"OMBI Total Cost for Solid Waste Diversion per Tonne - All Property Classes (includes amortization)",dollar,Y
+SWST802A,"Frequency of Collection-Garbage",int,N
+SWST802B,"Frequency of Collection-Recycling",int,N
+SWST802C,"Frequency of Collection-Bulk",int,N
+SWST802D,"Frequency of Collection-Leaf and Yard",int,N
+SWST802E,"Frequency of Collection-Organics",int,N
+SWST802F,"Frequency of Collection-White Goods/Scrap metal",int,N
+SWST803,"Number of Landfills",int,N
+SWST805,"Percent of Urban Households",percent,N
+SWST806,"Percent of Rural Households",percent,N
+SWST901,"Total Number of Solid Waste Management Facilities Owned by the Municipality with a Ministry of the Environment Certificate of Approval",int,N
+SWST902,"Number of Days per Year When a Ministry of the Environment Compliance Order for Remediation Concerning an Air or Groundwater Standard was in Effect for a Municipality Owned Solid Waste Management Facility",int,N
+SWST903M,"Solid Waste Average Operating Cost per Tonne - All Property Classes",dollar,N
+SWST911M,"MPMP Total Cost for Garbage Collection per Tonne - All Property Classes (includes Amortization and Interest on Long Term Debt)",dollar,N
+SWST912M,"MPMP Total Cost for Solid Waste Disposal per Tonne _ All Property Classes (includes Amortization and Interest on Long Term Debt)",dollar,N
+SWST913M,"MPMP Total Cost for Solid Waste Diversion per Tonne - All Property Classes (includes Amortization and Interest on Long Term Debt)",dollar,N
+SWST914M,"Solid Waste Average Total Cost per Tonne - All Property Classes",dollar,N
+SWST920M,"Percent of Solid Waste Diverted for Recycling (Based on Combined Residential and ICI Tonnage)",percent,N

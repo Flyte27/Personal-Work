@@ -1,0 +1,25 @@
+MeasureID,Title,Type,Priority
+PRKS001,"Population",int,N
+PRKS005,"Geographic Area",real,N
+PRKS008,"Population Density",real,N
+PRKS110," Maintained Parkland in Designated Urban Area as a Percent of Urban Area",percent,N
+PRKS112," Natural Parkland in Designated Urban Area as Percent of Urban Area",percent,N
+PRKS115,"All Parkland in Designated Urban Area as Percent of Urban Area",percent,N
+PRKS120,"Maintained Parkland in Municipality as a Percent of Total Area of Municipality",percent,N
+PRKS122,"Natural Parkland in Municipality as Percent of Total Area of Municipality",percent,N
+PRKS125,"All Parkland in Municipality as a Percent of Total Area of Municipality",percent,Y
+PRKS205,"Hectares of Maintained Parkland in Municipality per 100,000 Population",real,N
+PRKS210,"Hectares of Natural Parkland in Municipality per 100,000 Population",real,N
+PRKS215,"Hectares of Maintained and Natural Parkland per 100,000 Population",real,Y
+PRKS220M,"Hectares of Parkland Space per 1,000 Persons",real,N
+PRKS225M,"KM of Maintained Recreation Trails per 1,000 Persons",real,N
+PRKS230M,"Operating Cost of Parks per Person",dollar,N
+PRKS230T,"OMBI Total Operating Costs for Parks per Person (includes amortization)",dollar,N
+PRKS250,"Number of Premier Sports Fields (owned and operated) per 100,000 Population",real,N
+PRKS254,"Number of Premier Diamonds (owned and operated) per 100,000 Population",real,N
+PRKS260,"Number of Playground Sites per 100,000 Population",real,N
+PRKS270,"Number of Spray Pads per 100,000 Population",real,N
+PRKS275,"Percent of Maintained Parkland that are High Profile Parks",percent,N
+PRKS278,"Number of High Profile Parks (owned and operated) per 100,000 Population",real,N
+PRKS315,"Operating Cost per Hectare-Maintained and Natural Parkland",dollar,Y
+PRKS315T," OMBI Total Operating Costs per Hectare-Maintained and Natural Parkland",dollar,Y

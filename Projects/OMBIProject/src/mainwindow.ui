@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>920</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>920</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>920</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QCustomPlot" name="chartWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>711</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="muniLabel">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>180</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Municipalities:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="yearLabel">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>460</y>
+      <width>66</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Years:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="y2009Button">
+    <property name="geometry">
+     <rect>
+      <x>805</x>
+      <y>479</y>
+      <width>71</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2009</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">yearGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="y2010Button">
+    <property name="geometry">
+     <rect>
+      <x>725</x>
+      <y>509</y>
+      <width>61</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2010</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">yearGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="y2011Button">
+    <property name="geometry">
+     <rect>
+      <x>805</x>
+      <y>509</y>
+      <width>71</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2011</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">yearGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="y2009Label">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>480</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>2009</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="y2010Label">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>510</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>2010</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="y2011Label">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>510</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>2011</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="y2008Button">
+    <property name="geometry">
+     <rect>
+      <x>725</x>
+      <y>479</y>
+      <width>61</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2008</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">yearGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="y2008Label">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>480</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>2008</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="y2012Label">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>540</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>2012</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="y2012Button">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>539</y>
+      <width>71</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2012</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">yearGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>500</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save as Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="meanLineLabel">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>550</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>- - - - - - - - - - - - - -</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="muniList">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>210</y>
+      <width>191</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>691</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tableLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>701</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="meanLineButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>530</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Toggle Mean Line</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totalMeanLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totalMaxLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>530</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totalMinLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>560</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statsLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Statistics:</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="tableStats">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>470</y>
+      <width>301</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="minValueLabel">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>90</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="maxValueLabel">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>60</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="minButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>121</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Calculate Min</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="maxButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>121</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Calculate Max</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="meanButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>121</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Calculate Mean</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="meanValueLabel">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="selectedCellsLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Selected Cells:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="mainMenu">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>20</y>
+      <width>101</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Schoolbook L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Main Menu</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="serviceMeasures">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>120</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>80</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Schoolbook L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Service Measure:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveCSVButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>540</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save as CSV</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="legendButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>500</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toggle Legend</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <zorder>meanLineLabel</zorder>
+   <zorder>y2012Button</zorder>
+   <zorder>muniLabel</zorder>
+   <zorder>yearLabel</zorder>
+   <zorder>y2009Button</zorder>
+   <zorder>y2010Button</zorder>
+   <zorder>y2011Button</zorder>
+   <zorder>y2009Label</zorder>
+   <zorder>y2010Label</zorder>
+   <zorder>y2011Label</zorder>
+   <zorder>y2008Button</zorder>
+   <zorder>y2008Label</zorder>
+   <zorder>y2012Label</zorder>
+   <zorder>saveButton</zorder>
+   <zorder>muniList</zorder>
+   <zorder>chartWidget</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>tableLabel</zorder>
+   <zorder>meanLineButton</zorder>
+   <zorder>totalMeanLabel</zorder>
+   <zorder>totalMaxLabel</zorder>
+   <zorder>totalMinLabel</zorder>
+   <zorder>statsLabel</zorder>
+   <zorder>tableStats</zorder>
+   <zorder>mainMenu</zorder>
+   <zorder>serviceMeasures</zorder>
+   <zorder>label</zorder>
+   <zorder>saveCSVButton</zorder>
+   <zorder>legendButton</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="yearGroup">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>

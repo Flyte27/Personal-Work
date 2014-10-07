@@ -1,0 +1,36 @@
+MeasureID,Title,Type,Priority
+PLIB001,"Population",int,N
+PLIB008,"Population Density",real,N
+PLIB105M, "Annual Library Uses Per Capita",real,N
+PLIB106,"Electronic Library Uses per Capita",real,N
+PLIB107,"Non-Electronic Library Uses per Capita",real,N
+PLIB110,"Annual Non-Electronic Circulation per Capita",real,N
+PLIB115,"Annual Program Attendance per Capita",real,N
+PLIB120,"Annual In-library Materials Use per Capita",real,N
+PLIB125,"Annual Computer Workstations Uses per Capita",real,N
+PLIB127,"Annual Wireless Connections per Capita",real,N
+PLIB130,"Electronic Database Uses per Capita",real,N
+PLIB131,"Annual Electronic Circulation per Capita",real,N
+PLIB135,"Annual Standard Reference Transactions per Capita",real,N
+PLIB140,"Annual Electronic Reference Transactions per Capita",real,N
+PLIB145,"Annual Library Visits per Capita",real,N
+PLIB150,"Annual Electronic Visits per Capita",real,N
+PLIB156,"Active Borrowers as a Percent of Population",percent,N
+PLIB157,"Registered Cardholders (3 year period) as a Percent of Population",percent,N
+PLIB201,"Annual Number of Library Service Hours per Capita",real,N
+PLIB203,"Average Weekly Service Hours per Library Branch",real,N
+PLIB205,"Number of Library Holdings Per Capita",real,Y
+PLIB207,"Number of Square Feet of Library Spaces per Capita",real,N
+PLIB208,"Capacity (occupants) of Community Meeting Space per 100000 Population",real,N
+PLIB210,"Annual Dollar Amount Spent on Library Materials (General & Electronic) per Capita",dollar,N
+PLIB212,"Annual Dollar Amount Spent on General Library Materials per Capita",dollar,N
+PLIB214,"Annual Dollar Amount Spent on Electronic Library Materials per Capita",dollar,N
+PLIB215,"Number of Public Access Workstations per 100000 Population",real,N
+PLIB305M,"Library Operating Costs per Use",dollar,Y
+PLIB305T,"OMBI Total Library Operating Costs per Use (includes amortization)",dollar,Y
+PLIB405,"Average Number of Times in Year Circulating Items are Borrowed (Turnover)",real,Y
+PLIB901,"Library Operating Costs per Person",dollar,N
+PLIB902,"Electronic Library Uses as a Percent of Total Library Uses",percent,N
+PLIB903,"Non-Electronic Uses as a Percent of Total Library Uses",percent,N
+PLIB911M,"Total MPMP Library Operating Costs per Person (includes amortization and interest on long term debt)",dollar,N
+PLIB912M,"Total MPMP Library Operating Costs per Use (includes amortization and interest on long term debt)",dollar,N

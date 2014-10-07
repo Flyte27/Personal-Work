@@ -1,0 +1,30 @@
+MeasureID,Title,Type,Priority
+WATR001,"Population",int,N
+WATR002,"Override Population (Serviced Population)",int,N
+WATR003,"Households",int,N
+WATR004,"Override Households",int,N
+WATR005,"Geographic Area (sq kms)",real,N
+WATR006,"Override Geographic Area (sq kms)",real,N
+WATR008,"Population Density",real,N
+WATR009,"Override Population Density",real,N
+WATR105,"Number of Household Days with Mandatory Water Restrictions",percent,N
+WATR115,"Number of Household Days with Boil Water Advisories",real,N
+WATR120,"Average Age of Water Pipe",real,N
+WATR205,"Km of Water Distribution/Transmission Pipe (excluding Service Connections and Hydrant Supply Leads)",real,N
+WATR210,"Megalitres of Treated Water per 100,000 Population",real,Y
+WATR212,"Percent of Water Utilized for Industrial, Commercial and Institutional Uses",percent,N
+WATR215,"Water Use (Megalitres Distributed) per Household",real,N
+WATR220,"Percent of Households Serviced by Municipal Water",percent,N
+WATR221,"Average Occupancy Ratio (Serviced Population/Serviced Households)",real,N
+WATR305M,"Operating Cost for the Distribution/Transmission of Drinking Water per km of Water Distribution Pipe",dollar,Y
+WATR305T,"OMBI Total Operating Cost for the Distribution / Transmission of Drinking Water per km of Water Distribution Pipe",dollar,Y
+WATR310M,"Operating Cost for the Treatment of Drinking Water per Megalitre of Drinking Water Treated",dollar,Y
+WATR310T,"OMBI Total Operating Cost for the Treatment of Drinking Water per Megalitre of Drinking Water Treated (includes amortization)",dollar,Y
+WATR315M,"Operating Cost for the Treatment and Distribution / Transmission of Drinking Water per Megalitre of Drinking Water Treated",dollar,Y
+WATR315T,"OMBI Total Operating Cost for the Treatment and Distribution / Transmission of Drinking Water per Megalitre of Drinking Water Treated",dollar,Y
+WATR405,"Percent of Compliance to Drinking Water Standards",percent,N
+WATR410M,"Number of Water Main Breaks per 100 km (excluding connections) of Water Distribution Pipe",real,Y
+WATR901M,"Weighted Number of Days When a Boil Water Advisory Issued by the MOH applicable to a Municipal Water Supply Was in Effect",real,N
+WATR911M,"Total Cost for the Distribution / Transmission of Drinking Water per km of Water Distribution Pipe",dollar,N
+WATR912M,"Total Cost for the Treatment of Drinking Water per Megalitre of Drinking Water Treated",dollar,N
+WATR913M,"Total Cost for the Treatment and Distribution / Transmission of Drinking Water per Megalitre of Drinking Water Treated",dollar,N
